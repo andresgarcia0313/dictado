@@ -1,0 +1,7 @@
+target/
+*.bak-*
+crates/gui/.qmlls.ini
+
+# WAV regenerables (los crean mejora-ab.sh y ruido-calle.sh); solo frase.wav es fijo
+tests/audio/*
+!tests/audio/frase.wav

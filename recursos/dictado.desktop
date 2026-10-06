@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Dictado
+GenericName=Voz a texto en tiempo real
+Comment=Dictado local y sin conexión con medidor de memoria
+Exec=@RUTA@/dictado
+Icon=dictado
+Terminal=false
+Categories=AudioVideo;Audio;Recorder;
+Keywords=dictado;voz;texto;transcripción;micrófono;
+StartupWMClass=dictado

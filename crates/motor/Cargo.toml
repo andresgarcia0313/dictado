@@ -1,0 +1,15 @@
+[package]
+name = "dictado-motor"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+registro = { path = "../registro" }
+sherpa-onnx = "=1.13.8"
+cpal = "0.18"
+serde_json = "1"
+dirs = "6"
+hound = "3"
+realfft = "3.5"
+earshot = "1.2"
